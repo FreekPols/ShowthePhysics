@@ -2,8 +2,8 @@ name: call-deploy-book
 
 on:
   push:
-    branches:
-    - '**'
+    branches: [publication]
+    #- '**'
     # If your git repository has the Jupyter Book within some-subfolder next to
     # unrelated files, you can make this run only if a file within that specific
     # folder (or the workflow file itself) has been modified.
@@ -23,3 +23,21 @@ jobs:
       pages: write
       id-token: write
 
+  sync:
+    runs-on: ubuntu-latest
+ 
+    # steps:
+    #   - name: Checkout GitHub Repository
+    #     uses: actions/checkout@v4
+    #     with:
+    #       fetch-depth: 0  # Ensures all history is cloned
+ 
+    #   - name: Push to GitLab
+    #     run: |
+    #       git config --global user.name "GitHub Actions"
+    #       git config --global user.email "actions@github.com"
+ 
+    #       # Add GitLab as a remote (update URL for your repo)
+    #       git remote add gitlab https://oauth2:${{ secrets.GLPAT }}@gitlab.tudelft.nl/fpols/GH-GL-test.git
+    #       # Use force-with-lease for safety
+    #       git push gitlab
