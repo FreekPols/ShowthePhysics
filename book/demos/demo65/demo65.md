@@ -25,22 +25,22 @@ All students have blown up a balloon at some point in their lives, but they usua
 width: 75%
 align: center
 ---
-The balloon on the electronic balance connected to the computer. This way, you can display a graph with the value indicated by the balance.
+The balloon on the electronic scale connected to the computer. This way, you can display a graph with the value indicated by the scale.
 ```
 
 ## Equipment
 - Balloon
-- Electronic balance with USB output
-- Computer with software to read out the electronic balance (or digital balance with a camera directed at it)
+- Electronic scale with USB output
+- Computer with software to read out the electronic scale (or digital scale with a camera directed at it)
 - Transparent stand to clamp the balloon in
 
 ## Preparation
-Turn the balance on with the stand for the balloon on it. Set the balance to 0.00 g using the 'tare' button if necessary. Set the measurement frequency to two measurements per second. 
+Turn the scale on with the stand for the balloon on it. Set the scale to 0.00 g using the 'tare' button if necessary. Set the measurement frequency to two measurements per second. 
 
 ## Procedure
 1. Explain to the students how the demonstration works.
-2. Let students predict what the balance will indicate and why.
-3. Inflate the balloon and place it directly in the stand on the balance. Perform the measurement.
+2. Let students predict what the scale will indicate and why.
+3. Inflate the balloon and place it directly in the stand on the scale. Perform the measurement.
 4. Show with the graph that the mass of the balloon increases significantly in the first two minutes.
     - *What could be an explanation?*
 6. Provide the explanation of the demonstration.
@@ -58,7 +58,7 @@ Change in mass due to cooling of the balloon.
 ## Physics background
 Two forces act on the balloon: an upward buoyant force and gravity downward. In an inflated balloon, the air temperature is about 37 °C. This is warmer air than outside the balloon. The air in the balloon will cool down by heat transfer to the surroundings. Lower temperature air corresponds to lower pressure. The volume of the balloon will decrease.
 
-Since the buoyant force is proportional to the volume of the balloon, this force will decrease. Thus, the balance will indicate a higher mass. The mass change is on the order of a few tenths of a gram and can be accurately measured with an electronic balance. An indication of the volume difference can be calculated using the buoyant force formula:
+Since the buoyant force is proportional to the volume of the balloon, this force will decrease. Thus, the scale will indicate a higher mass. The mass change is on the order of a few tenths of a gram and can be accurately measured with an electronic scale. An indication of the volume difference can be calculated using the buoyant force formula:
 
 $$F_{buoyant} = \rho \cdot g \cdot V$$
 
